@@ -1,0 +1,76 @@
+main{
+    background-color:  var(--theme-color);
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: #fff;
+    border: 1px solid  #000;
+    border-radius: 15px;
+    box-shadow: 8px 8px;
+    max-width: 320px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 14px 14px;
+    transform: scale(1.01);
+}
+
+.card .logo{
+    border-radius: 10px;
+}
+
+.card .status{
+    background-color: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px 9px;
+    margin: 15px 0 0;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.card .date, .card .description{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 13px 0 16px 0;
+}
+
+.languages h1{
+    font-size: 19px;
+    font-weight: 800;
+    color: #000;
+}
+
+.languages h1:hover{
+    transition: 0.1s;
+    color: var(--theme-color);
+}
+
+.description{
+    color: var(--txt-color);
+}
+
+.autor{
+    display: flex;
+    align-items: center;
+    margin-right: 155px;
+    font-weight: 800;
+}
+
+.autor .avatar{
+    max-width: 23%;
+}
+
+.autor .name{
+    font-size: 12px;
+    margin-left: 10px;
+}
